@@ -436,3 +436,33 @@ button {
 .testimonial__speech-bubble a {
     color: var(--color-my-blue);
 }
+
+#contact {
+    background-color: var(--color-my-pink);
+}
+
+.contact__talk, 
+.contact__email, 
+.contact__link,
+.contact__rights {
+    color: var(--color-my-blue);
+}
+
+.contact__link a {
+    color: var(--color-my-blue);
+}
+
+.contact__talk {
+    margin: 32px; 
+}
+
+.contact__link {
+    font-size: var(--font-large);
+    margin: 24px 0;
+    transition: all var(--animation-duration) ease-in;
+}
+
+.contact__link i:hover {
+    transform: scale(1.2);
+}
+
