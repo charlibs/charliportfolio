@@ -14,6 +14,7 @@
     --color-blue: #73aace;
     --color-my-blue: #3c53a3;
     --color-yellow: #fff7d1;
+    --color-my-yellow: #fdf0cb;
     --color-orange: #feb546;
     --color-black: #000000;
   
@@ -103,10 +104,10 @@ button {
     margin: auto;
 }
 
-.secion__max {
+.section__container {
     max-width: 1200px;
     margin: auto;
-}
+  }
 
   /* navbar */
 
@@ -244,7 +245,7 @@ button {
 }
 
 #skills {
-    background-color: var(--color-yellow);
+    background-color: var(--color-my-pink);
 }
 
 .skillset {
@@ -275,6 +276,7 @@ button {
 }
 
 .skill__bar {
+    margin-top: 6px;
     width: 100%;
     height: 3px;
     background-color: var(--color-grey);
@@ -282,7 +284,7 @@ button {
 
 .skill_value {
     height: 3px;
-    background-color: var(--color-my-pink);
+    background-color: var(--color-my-yellow);
 }
 
 .skillset__right {
