@@ -338,7 +338,7 @@ button {
 }
 
 .category__count {
-    background-color: var(--color-orange);
+    background-color: var(--color-my-blue);
     border-radius: 50%;
     color: var(--color-white);
     width: 24px;
